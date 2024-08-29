@@ -71,12 +71,12 @@ body {
   height: 90vh;
   border: 1px solid white;
   border-radius: 8px;
-  background-color: rgba(0, 0, 0, 0.3); /* Slightly transparent black */
+ /* background-color: rgba(0, 0, 0, 0.3);*/ /* Slightly transparent black */
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   position: absolute;
   z-index: 1;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(1.5px);
   margin-top: 4vh;
 }
 
