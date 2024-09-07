@@ -4,7 +4,7 @@ import createKindeClient from "https://cdn.jsdelivr.net/npm/@kinde-oss/kinde-aut
     const kinde = await createKindeClient({
         client_id: "be8f5969eca04865b1d872436d9ef836",
         domain: "https://nextunitech.kinde.com",
-        redirect_uri: "gayrohit.vercel.app"
+        redirect_uri: "http://localhost:3000"
     });
 
     document.getElementById("login").addEventListener("click", async () => {
