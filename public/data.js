@@ -25,7 +25,7 @@ import createKindeClient from "https://cdn.jsdelivr.net/npm/@kinde-oss/kinde-aut
         mySidenav.insertAdjacentElement("afterbegin",p);
 
     }
-    else{
+   /* else{
         const prompt=document.getElementById("prompt").style.display="none"; 
         const button=document.getElementsByClassName("button1");
         for(let dis of button){
@@ -55,6 +55,6 @@ import createKindeClient from "https://cdn.jsdelivr.net/npm/@kinde-oss/kinde-aut
         a2.addEventListener("click", async () => {
             await kinde.register();
         });
-    }
+    }*/
 
 })();
