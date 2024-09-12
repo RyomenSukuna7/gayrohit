@@ -24,7 +24,7 @@ import createKindeClient from "https://cdn.jsdelivr.net/npm/@kinde-oss/kinde-aut
         p.style.cssText+=`text-align:center;font-size:20px;`
         mySidenav.insertAdjacentElement("afterbegin",p);
 
-    }else if(user==undefined){
+    }else{
         const prompt=document.getElementById("prompt").style.display="none"; 
         const button=document.getElementsByClassName("button1");
         for(let dis of button){
